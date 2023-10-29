@@ -1,0 +1,30 @@
+/* TableView.css */
+.table-container {
+    overflow-x: auto; /* Add horizontal scroll if needed */
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table th, .table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color: #618264;
+    text-align: center;
+    color: #dddddd;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #D0E7D2;
+  }
+
+  .table tr:nth-child(odd) {
+      background-color: #B0D9B1;
+  }
+  

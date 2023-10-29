@@ -1,0 +1,17 @@
+/* src/Navbar.css */
+  
+
+  .navbar {
+    background-color: #313134;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-item {
+    flex: 1;
+    margin: 0 10px;
+  }
